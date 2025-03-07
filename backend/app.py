@@ -3,8 +3,6 @@ from flask_cors import CORS
 import whisper
 import sounddevice as sd
 import numpy as np
-import scipy.io.wavfile as wav
-import time
 import os
 
 app = Flask(__name__)
